@@ -1,0 +1,27 @@
+#container {
+  border: 1px solid #dadada;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#conatiner-header {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  justify-content: center;
+
+}
+
+#title {
+  /* flex: 1 0 31%; */
+  flex-grow: 0.95;
+  text-align: center;
+}
+
+#add-icon {
+  margin-right: 10px;
+}
+
+#container-items {
+  margin-top: 5px;
+}

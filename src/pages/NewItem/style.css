@@ -1,0 +1,41 @@
+#parent {
+  background-color: #ededed;
+  height: 100vh;
+}
+
+#new-item-container {
+  display: flex;  
+  flex-direction: column;
+  padding-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+
+.new-item-title {
+  align-self: flex-start;
+}
+
+.label {
+  align-self: flex-start;
+}
+
+#new-item-button {
+  /* margin-top: 10px; */
+  align-self: flex-end;
+}
+
+input {
+  border: 1px solid #dadada;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: teal;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: 1px solid teal;
+}
